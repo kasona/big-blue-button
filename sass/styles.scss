@@ -1,0 +1,46 @@
+@import "partials/settings";
+//components
+@import 'foundation/components/grid';
+@import 'foundation/components/buttons';
+@import 'foundation/components/visibility';
+@import 'foundation/components/alert-boxes';
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+
+body{
+  background-color: lighten(blue,40%);
+}
+
+h1{
+  color:teal;
+  text-align: center;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  font-family: Montserrat;
+  letter-spacing: .2em;
+  &:hover{
+    color:purple;
+  }
+}
+
+  #butt{
+    // float:left;
+    color:white;
+    font-size: 20px;
+    background-color: blue;
+    padding: 150px;
+    width: 40%;
+    border: 5px solid black;
+    font-family: Shadows Into Light;
+    letter-spacing: .2em;
+
+    &:hover{
+      background-color: #FF00FF;
+      padding: 155px;
+      border: 5px solid black;
+      color: black;
+      font-size: 20px;
+    }
+  }
+
